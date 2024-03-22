@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px;
+}
+.logotitle{
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+.colortext{
+    color: #FD6E0A;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+.hiremeBtn{
+    background-color: #FD6E0A;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+}
+.bannerbg{
+    background-image: url("Imgess/Group\ 12.png") ,url("Imgess/Developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+.bannermain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerImg Img{
+    /* height: 500px; */
+    width: 100%;
+}
+.Downledcv{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+}
+.contactme{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #FD6E0A;
+    margin-left: 15px;
+    background: none;
+    border-color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+}
+.banner-title{
+    font-size: 45px; 
+    font-weight: 600;
+}
+.banner-subtitle{
+    font-size: 85px; 
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.aboutme{
+    text-align: center;
+    width: 1140px;
+    background-color: #fff5f3;
+    margin: 0 auto;
+    padding: 130px 10px;
+    margin-top: 130px;
+}
+.aboutTitle{
+    font-size: 35px; 
+    font-weight: 700;
+}
+.aboutDescription{
+    font-size: 18px;
+    color: #757575;
+    padding: 30px 0px;
+}
+
+.about-Info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.common-info{
+    font-size: 20px; 
+    font-weight: 700;
+    color: #757575;
+}
+.common-info{
+    font-size: 20px; 
+    font-weight: 700;
+    color: #474747;
+}
