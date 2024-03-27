@@ -3,6 +3,10 @@
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
+.contanier{
+    width: 1140px;
+    margin: 0 auto;
+}
 .navber{
     display: flex;
     justify-content: space-around;
@@ -78,12 +82,14 @@
 }
 .aboutme{
     text-align: center;
-    width: 1140px;
     background-color: #fff5f3;
-    margin: 0 auto;
     padding: 130px 10px;
     margin-top: 130px;
 }
+/* main{
+    margin: 0 auto;
+    width: 1140px;
+} */
 .aboutTitle{
     font-size: 35px; 
     font-weight: 700;
@@ -108,4 +114,55 @@
     font-size: 20px; 
     font-weight: 700;
     color: #474747;
+}
+.text{
+    text-align: center;
+    margin-top: 130px;
+}
+.text-Title{
+    font-size: 35px; 
+    font-weight: 700;
+}
+.text-discription{
+    font-size: 18px; 
+}
+.alllanguage{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+.text-Title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.text-discription{
+    font-size: 18px;
+    padding: 20px 0px;
+    color: #757575;
+}
+.common_language{
+    padding: 30px 25px;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.commin-title{
+    padding: 20px 0px;
+}
+.common-color{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+}
+.summer{
+  margin-top: 130px;
+}
+.summer-title{
+    text-align: center;
+}
+.summaryscetion{
+    display: flex;
+    gap: 10px;
 }
